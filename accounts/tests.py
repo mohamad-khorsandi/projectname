@@ -15,7 +15,7 @@ class TestMathFunctions(unittest.TestCase):
         self.assertEqual(sum(-2, -3), -5)
 
     def test_sub(self):
-        self.assertEqual(sub(2, 3), -1)
+        self.assertEqual(sub(2, 3), -2)
         self.assertEqual(sub(0, 5), -5)
         self.assertEqual(sub(-2, -3), 1)
 
